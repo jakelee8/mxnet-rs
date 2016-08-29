@@ -1,0 +1,9 @@
+[package]
+name = "mxnet"
+version = "0.1.0"
+authors = ["Jake Lee <jake@jakelee.net>"]
+
+[dependencies]
+lazy_static = "^0.2.1"
+libc = "^0.2.0"
+mxnet-sys = {git = "https://github.com/jakeleeme/mxnet-sys.git"}
